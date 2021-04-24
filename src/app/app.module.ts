@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -10,6 +12,8 @@ import { DesenvolvimentoComponent } from './componentes/desenvolvimento/desenvol
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
