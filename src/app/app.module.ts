@@ -8,10 +8,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClientesComponent } from './componentes/clientes/clientes.component';
+import { ContatoComponent } from './componentes/contato/contato.component';
 import { DesenvolvimentoComponent } from './componentes/desenvolvimento/desenvolvimento.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
+
+
 
 
 
@@ -23,6 +26,7 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
     ClientesComponent,
     FooterComponent,
     SobreComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
